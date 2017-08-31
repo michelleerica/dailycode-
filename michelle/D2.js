@@ -6,11 +6,7 @@
 let input = function(list1, list2){
   let arr1 = list1.split("->").reverse();
   let arr2 = list2.split("->").reverse();
-  console.log(arr1.length);
   let answer = [];
-  let output;
-
-
 
   for (var i = 0; i < arr1.length; i++) {
 
