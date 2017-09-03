@@ -4,8 +4,8 @@
 // Output: 7 -> 0 -> 8
 
 let input = function(list1, list2){
-  let arr1 = list1.split("->").reverse();
-  let arr2 = list2.split("->").reverse();
+  const arr1 = list1.split("->").reverse();
+  const arr2 = list2.split("->").reverse();
   let answer = [];
 
   for (var i = 0; i < arr1.length; i++) {
